@@ -14,6 +14,7 @@ try:
     f.close()
 except (FileExistsError, FileNotFoundError) as error:
     print(error)
+    
 
 for i in range(len(names)):
     names[i] = names[i].strip()
